@@ -1,0 +1,33 @@
+trainer:
+  _target_: trainer.Trainer
+  n_episodes: 1800
+  max_t: 2000
+  run_headless: true
+  print_setup: false
+  print_every: 100
+  target_score: 0.5
+  window_size: 100
+  scores_path: scores.pkl
+  ma_cfg:
+    n_agents: 2
+    batch_size: 512
+    buffer_size: 100000
+  agent_cfg:
+    actor:
+      lr: 0.0007587945476302646
+      fc_1: 256
+      fc_2: 384
+    critic:
+      lr: 0.00024039506830258236
+      weight_decay: 0.0
+      fc_1: 384
+      fc_2: 64
+    learn_iterations: 15
+    update_every: 10
+    gamma: 0.99
+    tau: 0.001
+    oun:
+      mu: 0.0
+      theta: 0.15
+      sigma: 0.2
+    seed: 42

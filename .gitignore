@@ -1,0 +1,9 @@
+/Tennis_Linux_NoVis
+/Tennis.app
+
+/outputs
+/.ipynb_checkpoints
+/.DS_Store
+unity-environment.log
+/__pycache__
+/ignore
