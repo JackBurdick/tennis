@@ -53,7 +53,7 @@ The task is episodic, and in order to solve the environment, your agents must ge
 The environment is considered solved, when the average (over 100 episodes) of those **scores** is at least +0.5.
 
 
-### Getting Started (Dependencies)
+## Getting Started (Dependencies)
 
 - Unity Ml Agents
 - PyTorch
@@ -67,7 +67,7 @@ Optional
     - More [information](https://hydra.cc/docs/plugins/optuna_sweeper/)
 
 
-### Instructions
+### Environment Instructions
 
 To set up the environment please see [unity_instructions](./unity_instructions.md)
 
